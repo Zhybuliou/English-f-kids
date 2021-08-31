@@ -1,0 +1,282 @@
+.nav-admin__wrapper{
+  width: 100%;
+  height: 97px;
+
+  display: flex;
+  justify-content: center;
+
+  background: #00BF82;
+}
+.admin-nav-list{
+  width: 1200px;
+  height: 97px;
+
+
+  display: flex;
+
+  align-items: center;
+
+  list-style: none;
+
+}
+@media (max-width: 1300px) {
+  .admin-nav-list{
+    width: 800px;
+  }
+}
+@media (max-width: 900px) {
+  .admin-nav-list{
+    width: 600px;
+  }
+}
+@media (max-width: 650px) {
+  .admin-nav-list{
+    width: 400px;
+  }
+}
+
+.admin-nav-list__item{
+  color: #fff;
+  display: flex;
+
+}
+.li-last{
+  margin-left: auto;
+}
+.li-first{
+  margin-right: 50px;
+}
+@media (max-width: 480px) {
+  .admin-nav-list{
+    width: 300px;
+  }
+  .li-first{
+    margin-right: 10px;
+  }
+}
+.category-card{
+  width: 361px;
+  height: 244px;
+
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 5px;
+  border: 2px solid #000;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  color: #000000;
+}
+.word-card{
+  width: 361px;
+  height: 100%;
+
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 5px;
+  border: 2px solid #000;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  color: #000000;
+}
+.category-card__delete{
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+}
+.category-card__tittle{
+  text-align: center;
+}
+.category-card__word{
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.category-card__footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.category-card__footer-btn{
+  width: 143px;
+ height: 34.18px;
+
+ margin-right: 10px;
+
+ border: 2px solid #00BF82;
+box-sizing: border-box;
+border-radius: 5px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+color: #00BF82;
+}
+.category-card__add-category{
+    margin: 0 auto;
+
+    border-radius: 72%;
+    border: 4px solid #000;
+    text-align: center;
+    margin-top: 26px;
+    font-size: 95px;
+    font-weight: 100;
+    width: 154px;
+}
+.category-card__add-category:hover{
+  cursor: pointer;
+}
+.label-category{
+margin-top: 50px;
+margin-left: 30px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 9px;
+line-height: 11px;
+display: flex;
+align-items: center;
+
+color: #3F51B5;
+}
+#input-category,
+#input-word,
+#input-translation{
+  width: 293px;
+  margin: 0 auto;
+
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #000;
+}
+.cancel-btn{
+width: 143px;
+height: 54px;
+
+margin-right: 10px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: #fff;
+
+color: #E53935;
+border: 2px solid #E53935;
+border-radius: 5px;
+cursor: pointer;
+}
+.creat-btn{
+width: 125px;
+height: 54px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+color: #00BF82;
+border: 2px solid #00BF82;
+border-radius: 5px;
+cursor: pointer;
+}
+.category-card__add-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+button {
+  background: transparent;
+}
+.category-card__delete{
+    cursor: pointer;
+}
+.word-card__img img{
+  width: 250px;
+  margin-left: 55px;
+  margin-bottom: 10px;
+}
+.word-card__btn-change{
+  width: 251px;
+  height: 60px;
+
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+
+  border: 2px solid #00BF82;
+  box-sizing: border-box;
+  border-radius: 5px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #00BF82;
+
+}
+.category-word{
+  width: 361px;
+  height: 100%;
+
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 5px;
+  border: 2px solid #000;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  color: #000000;
+}
+#uploadBannerImage{
+position: relative;
+width: 150px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #00BF82;
+ }
